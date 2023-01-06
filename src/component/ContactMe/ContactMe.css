@@ -1,0 +1,52 @@
+.contactMe_container{
+    display: grid;
+    grid-template-columns: 30% 80%;
+    
+}
+.contactMe_box{
+        padding: 2rem 1rem;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 1.25rem;
+     
+ }
+ .contactMe_info{
+    display: flex;
+    flex-direction: column;
+ }
+ .contactMe_link{
+    cursor: pointer;
+ }
+ .writeMe{
+    display: flex;
+    flex-direction: column;
+ }
+ .writeMe_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  
+    row-gap: 0.25rem;
+}
+.writeMe_input{
+    outline: none;
+    border-radius: 0.75rem;
+    width: 100%;
+    top:0;
+    left:0;
+    border: 2px solid rgba(0,0,0,0.3);
+    padding: 0.3rem;
+}
+
+.button{
+ text-align:center;
+ font-size: var(--small-font-size);
+ width: 60%;
+ margin-left: auto;
+
+  
+}
+ 
