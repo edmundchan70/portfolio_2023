@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import myPic from "../../assets/myPic.jpeg";
+import TMU from "../../assets/TMU.jpeg";
 import CV from "../../assets/Final_Resume.pdf"
 import Info from "./Info";
 
@@ -11,7 +11,7 @@ function About() {
             <h2 className='section__title'>About Me</h2>
             <span className="section__subtitle">My Introduction</span>
             <div className="about_container container grid">
-                <img src={myPic}  className="about_img" />
+                <img src={TMU}  className="about_img" />
                 <div className='about_data'>
                         <Info />
                         <p className="about_description"> 
