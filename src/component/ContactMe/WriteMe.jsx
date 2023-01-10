@@ -1,14 +1,16 @@
 import React from 'react'
-
+import { ThemeContext } from '../../App'
+import { useContext } from 'react'
 function WriteMe() {
+  const {handle , darkMode} = useContext(ThemeContext)
   return (
      <div className="writeMe">
-           <h1 className="section__title">
+           <h1 className="section__title" id={darkMode}>
                 Write to Me 
             </h1>
         <form className="writeMe_box container" action='https://formsubmit.co/edmundchan70@gmail.com' method='POST'>
 
-            <label htmlFor="" className="contactMe__form-div">Name</label>
+            <label htmlFor="" className="contactMe__form-div" >Name</label>
             <input type="text" className="writeMe_input" placeholder='Type your Name ...' />
 
             <label htmlFor="" className="contactMe__form-div">Email</label>

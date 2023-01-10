@@ -20,7 +20,7 @@
     text-align:center;
     padding:1rem 1.25rem;
 }
-
+ 
 .about_icon{
     font-size:1.5rem;
     color:var(--title-color);
@@ -40,4 +40,8 @@
 .button {
     padding:1rem 1.75rem;
  
+}
+.dark{
+    background-color: rgb(74, 73, 73);
+    color:#fff;
 }

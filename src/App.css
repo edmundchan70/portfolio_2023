@@ -13,6 +13,9 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color-dark: #212121;
+ 
+  --container-color-dark: rgb(11, 10, 10);
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -85,6 +88,12 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+}
+
+
+.body_dark{
+  background-color: var(--body-color-dark);
+  color:var(--text-color-dark);
 }
 
 h1,

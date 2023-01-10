@@ -31,7 +31,7 @@ column-gap: 1rem;
 .nav_menu{
     padding: 2rem;
 }
- 
+
 .nav_link{
     display: flex;
     flex-direction: column;
@@ -39,4 +39,11 @@ column-gap: 1rem;
     color : var(--title-color);
     font-weight: var(--font-medium);
     transition: .3s;
+}
+.nav_theme{
+    cursor: pointer;
+}
+#dark {
+    background-color: var(--container-color-dark);
+    color : var(--container-color);
 }

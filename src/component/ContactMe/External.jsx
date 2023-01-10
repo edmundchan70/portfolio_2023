@@ -1,13 +1,16 @@
 import React from 'react'
 import {AiOutlineMail,AiOutlineWhatsApp,} from "react-icons/ai"
 import {RiMessengerLine} from "react-icons/ri" ; 
+import { ThemeContext } from '../../App'
+import { useContext } from 'react'
 function External() {
+    const {handle , darkMode} = useContext(ThemeContext)
   return (
-     <div className="contactMe_info grid">
+     <div className="contactMe_info grid" >
         <div className="contactMe_box">
-            <a href='mailto:edmundchan70@gmail.com 'className='contactMe_link'>
+            <a href='mailto:edmundchan70@gmail.com 'className='contactMe_link' >
                 <AiOutlineMail className='contactMe_icon'/>
-                <h3 className="contactMe_title">Email</h3>
+                <h3 className="contactMe_title"  >Email</h3>
                 <span className="contactMe_subtitle">
                     edmundchan70@gmail.com
                 </span>
