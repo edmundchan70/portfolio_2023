@@ -16,6 +16,7 @@
   --body-color-dark: #212121;
  
   --container-color-dark: rgb(11, 10, 10);
+  --header-color-dark: rgb(47, 43, 43,0.5);
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -225,3 +226,10 @@ img {
     margin-right: var(--mb-1);
   }
 }
+
+#dark {
+   
+  background-color: var(--container-color-dark);
+  color : var(--container-color);
+}
+ 

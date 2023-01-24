@@ -1,0 +1,24 @@
+.Card ,.Project_deatil{
+    padding: 2rem;
+    background-color: white ;
+    border: solid 1px gray;
+    border-radius: 1.25rem;
+    cursor: pointer;
+    margin-bottom: 30vh;
+}
+.Project_container{
+    grid-template-columns: repeat(2,350px);
+    column-gap: 3rem;
+    justify-content: center;
+ 
+}
+.Project_img{
+    object-fit: contain;
+}
+.Project_Summary{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+}
+ 

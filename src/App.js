@@ -3,7 +3,7 @@ import "./App.css";
 import About from "./component/About/About";
 import Home from "./component/Home/Home";
 import Skills from "./component/skills/Skills";
- 
+import Project from "./component/Project/Project";
 import ContactMe from "./component/ContactMe/ContactMe";
 import { useState } from "react";
 import { createContext } from "react";
@@ -23,7 +23,9 @@ function App() {
                <Home /> 
                <About />
                <Skills />
+               <Project />
                <ContactMe />
+           
             </main>
     </ThemeContext.Provider>
       

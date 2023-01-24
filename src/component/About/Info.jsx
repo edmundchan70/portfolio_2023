@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {BsBriefcase} from "react-icons/bs"
 import {BiAward} from "react-icons/bi"
 import {AiOutlineFundProjectionScreen} from "react-icons/ai"

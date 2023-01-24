@@ -7,6 +7,7 @@ import "./Header.css";
 import {BsFillMoonFill} from "react-icons/bs"
 import { ThemeContext } from '../../App'
 import { useContext } from 'react'
+import {SiBlueprint} from "react-icons/si"
 function Header() {
     const {handle , darkMode} = useContext(ThemeContext)
   return (
@@ -35,6 +36,12 @@ function Header() {
                                 <i className="uil uil- nav_icon"></i> Skill 
                             </a>
                         </li>   
+                        <li className='nav_item'>
+                            <a href="#Project" className="nav_link" id={darkMode} >
+                            <SiBlueprint />
+                                <i className="uil uil- nav_icon"></i>Project
+                            </a>
+                        </li> 
                         <li className='nav_item'>
                             <a href="#contact" className="nav_link" id={darkMode} >
                             <MdDesignServices />
