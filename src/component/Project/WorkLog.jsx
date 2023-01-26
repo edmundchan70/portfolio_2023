@@ -6,6 +6,7 @@ function WorkLog() {
     const octokit = new Octokit({
         auth: process.env.REACT_APP_GITHUB_API_KEY
       });
+       
     useEffect(
         ()=>{
        
@@ -24,22 +25,27 @@ if(data.length>0)
         <h3 className='Project_text'>Real-Time commit</h3>
         <h4 className='Project_text'>UserName: {data[0].actor.login}</h4>
          <div className='Project_wrapper'>
+            <a href='https://github.com/edmundchan70'> 
             <table className='Project_Display'>
                 <tr>
                     <th>Time </th>
                     <th>Act</th>
                     <th>Project Name </th>
-                    <th>CommitId</th>
+                    <th>Commit Message</th>
+             
+                     
                   
                   
                  
                 </tr>
                 {data.map((item,i)=>{
-                    const commitId= item.payload.head;
+                    var commitMess="NONE"
+                    if(item.payload.commits)
+                         commitMess= item.payload.commits[0].message;
                     const act  = item.type;
                     const proj = item.repo.name;
                     const time = item.created_at;
-         
+                 
                     if(i<10)
                     return(
                         <tr>
@@ -47,12 +53,14 @@ if(data.length>0)
                             <td>{act}</td>
                             <td>{proj}</td>
                             
-                            <td>{commitId}</td>
+                            <td>{commitMess}</td>
                         </tr>
                     )
                 })}
         
             </table>
+            </a>
+           
         </div>
     </div>
 )
