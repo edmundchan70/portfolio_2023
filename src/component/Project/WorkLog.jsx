@@ -21,9 +21,9 @@ function WorkLog() {
 if(data.length>0)
   return (
     <div className='Project_WorkLog'>
-            {console.log(data)}
-        <h3 className='Project_text'>Real-Time commit</h3>
-        <h4 className='Project_text'>UserName: {data[0].actor.login}</h4>
+   
+        <h3 className='section__title'>Real-Time commit</h3>
+        <h4 className='Project_text'>My Recent work ...</h4>
          <div className='Project_wrapper'>
             <a href='https://github.com/edmundchan70'> 
             <table className='Project_Display'>
@@ -65,7 +65,7 @@ if(data.length>0)
     </div>
 )
   else{
-    console.log(data)
+   
     return(
         <div>LOADING</div>
     )
