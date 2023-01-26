@@ -2,6 +2,7 @@ import React from 'react'
 import { ThemeContext } from '../../App'
 import { useContext } from 'react'
 import "./Project.css"
+import WorkLog from './WorkLog'
 import Shop_Clone from "../../assets/Shop_Clone.png"
 import ProjectCard from './ProjectCard'
  
@@ -15,8 +16,12 @@ function Project() {
                     Project I'm working on ....
         </span>
         <div className='Project_container container grid'  >
-          <ProjectCard Background={Shop_Clone} Title={"Online SHOP (FULLSTACK)"} Link={"https://ez-amazon-repo-zuwg.vercel.app"} />
-          <ProjectCard Background={Shop_Clone} Title={"Portfolio"} Link={"https://portfolio-2023-xi-flax.vercel.app/"} />
+          <div className='ProjectCard_container ' >
+                <ProjectCard Background={Shop_Clone} Title={"Online SHOP (FULLSTACK)"} Link={"https://ez-amazon-repo-zuwg.vercel.app"} />
+                <ProjectCard Background={Shop_Clone} Title={"Portfolio"} Link={"https://portfolio-2023-xi-flax.vercel.app/"} />
+          </div>
+          <WorkLog />
+         
         </div>
     </section>
   )

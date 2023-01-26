@@ -4,10 +4,11 @@
     border: solid 1px gray;
     border-radius: 1.25rem;
     cursor: pointer;
-    margin-bottom: 30vh;
+   
 }
+ 
 .Project_container{
-    grid-template-columns: repeat(2,350px);
+    grid-template-columns: 35% 50%;
     column-gap: 3rem;
     justify-content: center;
  
@@ -21,4 +22,38 @@
     gap: 1rem;
   
 }
+.ProjectCard_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Project_WorkLog{
+    border: 1px solid ;
+    border-radius: 2rem;
+    padding: 2rem;
+}
  
+.Project_text{
+    font-size: larger;
+    text-align: center;
+ 
+}
+ td{
+    border:1px solid black;
+    padding: 0.5rem;
+  }
+ 
+.Project_Display{
+    padding: 1rem;
+    width: 100%;
+    
+    font-size: xx-small;
+}
+th{
+    font-size: large;
+    color: #000;
+}
+.Project_wrapper{
+    overflow:auto;  
+  
+}
