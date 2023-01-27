@@ -1,6 +1,6 @@
 .contactMe_container{
     display: grid;
-    grid-template-columns: 30% 80%;
+    grid-template-columns: 35% 80%;
     
 }
 .contactMe_box{
