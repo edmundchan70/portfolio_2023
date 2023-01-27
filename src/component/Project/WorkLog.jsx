@@ -9,10 +9,10 @@ function WorkLog() {
        
     useEffect(
         ()=>{
-       
             const resp= async()=>{
             const {data}= await octokit.request(`GET /users/${process.env.REACT_APP_GITHUB_USER}/events`)
-            console.log(data)   
+            console.log(data) 
+            console.log(`GET /users/${process.env.REACT_APP_GITHUB_USER}/events`)
             setData(data)
         }
         resp();
@@ -32,11 +32,6 @@ if(data.length>0)
                     <th>Act</th>
                     <th>Project Name </th>
                     <th>Commit Message</th>
-             
-                     
-                  
-                  
-                 
                 </tr>
                 {data.map((item,i)=>{
                     var commitMess="NONE"
@@ -45,7 +40,6 @@ if(data.length>0)
                     const act  = item.type;
                     const proj = item.repo.name;
                     const time = item.created_at;
-                 
                     if(i<10)
                     return(
                         <tr>
