@@ -12,7 +12,8 @@ function WorkLog() {
        
             const resp= async()=>{
             const {data}= await octokit.request(`GET /users/${process.env.REACT_APP_GITHUB_USER}/events`)
-                setData(data)
+            console.log(data)   
+            setData(data)
         }
         resp();
     }
