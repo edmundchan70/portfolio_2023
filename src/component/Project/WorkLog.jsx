@@ -31,15 +31,14 @@ if(data.length>0)
                     <th>Time </th>
                     <th>Act</th>
                     <th>Project Name </th>
-                    <th>Commit Message</th>
+            
                 </tr>
                 {data.map((item,i)=>{
-                    var commitMess="NONE"
-                    if(item.payload.commits)
-                         commitMess= item.payload.commits[0].message;
+                 
+    
                     const act  = item.type;
                     const proj = item.repo.name;
-                    const time = item.created_at;
+                    const time = Date(item.created_at);
                     if(i<10)
                     return(
                         <tr>
@@ -47,7 +46,7 @@ if(data.length>0)
                             <td>{act}</td>
                             <td>{proj}</td>
                             
-                            <td>{commitMess}</td>
+                       
                         </tr>
                     )
                 })}

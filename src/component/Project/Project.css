@@ -47,7 +47,7 @@
 .Project_Display{
     padding: 1rem;
     width: 100%;
-    
+    border-collapse: collapse;
     font-size: xx-small;
 }
 th{
@@ -57,4 +57,9 @@ th{
 .Project_wrapper{
     overflow:auto;  
   
+}
+ 
+.Project_Skill{
+    display: flex;
+    
 }
