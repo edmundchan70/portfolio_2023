@@ -48,12 +48,7 @@ function Header() {
                                 <i className="uil uil- nav_icon"></i>Contact
                             </a>
                         </li> 
-                        <li className='nav_item'>
-                            <div onClick={handle} className="nav_theme">
-                                    <BsFillMoonFill />
-                                    
-                            </div>    
-                        </li>  
+                       
                     </ul>
                </div>
                 
