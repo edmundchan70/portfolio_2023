@@ -42,6 +42,14 @@ function FullStack() {
                     </div>
               </div>
               <div className="skill_data">
+                <AiOutlineCheckCircle />
+                <div>
+                <h3 className={darkMode==="light"? "skills_name" : "skills_name dark"}>Nest.JS  </h3>
+                    <span className="skills_level">Advanced</span>
+               
+                </div>
+          </div>
+              <div className="skill_data">
                     <AiOutlineCheckCircle />
                     <div>
                     <h3 className={darkMode==="light"? "skills_name" : "skills_name dark"}>React  </h3>
