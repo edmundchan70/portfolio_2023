@@ -48,5 +48,35 @@
 @media only  screen and (max-width: 800px){
         .about{
             width: 900px;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
         }
+        .about_img{
+            display: none;
+        }
+        .about_data{
+           display: flex;
+           flex-direction: column;
+            align-items: center;
+        }
+        .about_info{
+            display: grid;
+            justify-content: center;
+        }
+        .about_container{
+            grid-template-columns: 100%;
+           
+        }
+        .about_description{
+           display: flex;
+            text-align: left;
+            font-size: var(--small-font-size);
+            width: 50%;
+        }
+        .button{
+            margin-left: 0 !important;
+            width: 30% !important;
+        }
+        
 }

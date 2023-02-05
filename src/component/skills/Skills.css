@@ -37,4 +37,7 @@
     .skills{
         width: 900px;
     }
+    .skills_container{
+        display: flex;
+    }
 }

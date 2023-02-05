@@ -20,7 +20,7 @@ function About() {
                         Currently a Year 3 ,CS Major Student At TMU.  Right now I 
                         self-teaching my-self to be a full-stack developer. Always willing and looking foward to learn new things! 
                         </p>
-                        <a download="" href={CV} className="button button--flex">Download CV
+                        <a download="" href={CV} className="button ContactMe">Download CV
                         <HiOutlineDocumentText />
                         </a>
                 </div>

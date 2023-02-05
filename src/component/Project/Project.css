@@ -68,5 +68,21 @@ th{
     .Project{
         width: 900px;
     }
+    .Project_WorkLog{
+        display: none;
+    }
+    .Project_container{
+        display: flex;
+    }
+    
 
+    .ProjectCard_container{
+        display: flex;
+        gap: 30px;
+       
+
+    }
+        
+
+  
 }

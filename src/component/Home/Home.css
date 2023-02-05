@@ -115,4 +115,7 @@ margin-left: 0.4rem;
         padding: 1rem;
         color: var(--title-color);
     }
+    .contactMeBtn{
+        width: auto!important;
+    }
  }

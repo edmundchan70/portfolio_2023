@@ -16,7 +16,7 @@ function Data() {
             <p className="home_description">
             Currently a Year 3 ,Computer Science Major Student At TMU. 
             </p>
-            <a href="#contact" className='button'>
+            <a href="#contact" className='button contactMeBtn'>
                 Contact ME! 
             </a>
            
