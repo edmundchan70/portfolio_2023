@@ -95,3 +95,24 @@ margin-left: 0.4rem;
         transform: translateY(0px);
     }
  }
+
+ @media only screen  and (max-width:800px){
+    .home_img{
+     display: none;
+    }
+
+    .home_content {
+        display: flex;
+        flex-direction: column;
+         width: 900px;
+        justify-content: center;
+    }
+    .home_social{
+       display: flex;
+    }
+    .home_social-icon{
+        font-size:3.5rem;
+        padding: 1rem;
+        color: var(--title-color);
+    }
+ }

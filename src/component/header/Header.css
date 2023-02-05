@@ -44,3 +44,14 @@ column-gap: 1rem;
     cursor: pointer;
 }
  
+@media only screen and (max-width:900px){
+    
+    .nav_logo{
+        display: none;
+    }
+    .nav{
+        justify-content:  center;
+   
+    }
+     
+}

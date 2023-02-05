@@ -33,3 +33,8 @@
     background-color: rgb(74, 73, 73);
     color:#fff;
 }
+@media only  screen and (max-width: 800px){
+    .skills{
+        width: 900px;
+    }
+}

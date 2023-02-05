@@ -6,7 +6,7 @@ function ProjectCard({Background , Title , Description , Link}) {
   const [Detail , setDetail] = useState(false);
  
   return (
-    <div className='Project Card'  onClick={()=>
+    <div className='Project_Card'  onClick={()=>
       setDetail(!Detail)}>
           <div className='Project_Summary' >
               <Icon Title={Title}/>

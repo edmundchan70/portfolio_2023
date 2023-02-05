@@ -1,4 +1,4 @@
-.Card ,.Project_deatil{
+.Project_Card ,.Project_deatil{
     padding: 2rem;
     background-color: white ;
     border: solid 1px gray;
@@ -64,3 +64,9 @@ th{
     
 }
  
+@media only  screen and (max-width: 800px){
+    .Project{
+        width: 900px;
+    }
+
+}

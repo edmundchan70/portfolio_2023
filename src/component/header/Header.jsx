@@ -12,7 +12,7 @@ function Header() {
     const {handle , darkMode} = useContext(ThemeContext)
   return (
      <header className="header" id={darkMode}>
-             <nav className="nav container" >
+             <nav className="nav" >
                 <a href="index.html" className="nav_logo" id={darkMode} >Edmund</a>
                <div className='nav_menu'>
                     <ul  className="nav_list grid">

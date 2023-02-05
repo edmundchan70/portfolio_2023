@@ -7,7 +7,7 @@ import WriteMe from './WriteMe'
 function ContactMe() {
   const {handle , darkMode} = useContext(ThemeContext)
   return (
-     <section id="contact">
+     <section id="contact" className='contact'>
         <h2 className="section__title" id={darkMode}>Contact ME</h2>
         <span className="section__subtitle">
             keep in touch ...
