@@ -22,7 +22,7 @@ function App() {
             <main className="main" id={darkMode}>
                <Home /> 
                <About />
-               <Skills />
+             
                <Project />
                <ContactMe />
            
