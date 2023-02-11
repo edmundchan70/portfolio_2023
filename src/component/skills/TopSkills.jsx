@@ -25,7 +25,7 @@ function TopSkills() {
                         <p className='Skill_desc'> Experience Year : 4 Years</p>
                     </div>  
                      <div className='Skill'>
-                     <p className='Skill__title'>Postgre Sql</p>
+                     <p className='Skill__title'>PostgreDB</p>
                         <img src={PSQL}  className="Skill_avatar"/>
                         <p className='Skill_desc'> Experience Year : 1.5 Years</p>
                     </div>

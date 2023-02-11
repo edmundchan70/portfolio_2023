@@ -12,9 +12,7 @@ function Skills() {
     
     <section className="skills section" id="skill">
         <h2 className="section__title" id={darkMode}>Skills</h2>
-        <span className="section__subtitle">
-                    My skills 
-        </span>
+       
         <div className="skills_container container grid">
     
            <TopSkills /> 
