@@ -65,9 +65,7 @@ th{
 }
  
 @media only  screen and (max-width: 800px){
-    .Project{
-        width: 900px;
-    }
+     
     .Project_WorkLog{
         display: none;
     }

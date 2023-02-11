@@ -45,9 +45,12 @@
     background-color: rgb(74, 73, 73);
     color:#fff;
 }
+.description{
+    font-weight: bold;
+}
 @media only  screen and (max-width: 800px){
         .about{
-            width: 900px;
+       
             justify-content: center;
             display: flex;
             flex-direction: column;
@@ -68,15 +71,21 @@
             grid-template-columns: 100%;
            
         }
-        .about_description{
-           display: flex;
-            text-align: left;
+        .about_description1{
+           text-align: center;
             font-size: var(--small-font-size);
-            width: 50%;
+            padding: 0.5rem;
+        }
+        .about_description2{
+            padding: 0.5rem;
+            margin-bottom: 50px;
         }
         .button{
             margin-left: 0 !important;
             width: 30% !important;
         }
+         
+         
+
         
 }

@@ -6,17 +6,12 @@ function Social () {
   const {handle , darkMode} = useContext(ThemeContext)
   return (
     <div className='home_social'  >
-        <a href='https://www.instagram.com/edmundchan70/' className='home_social-icon' id={darkMode} >
-            <AiOutlineInstagram />
-            </a>    
-        <a href='https://www.facebook.com/edmund.chan.733076/' className='home_social-icon' id={darkMode} >
-            <AiOutlineFacebook />
-            </a>    
+         
         <a href='https://www.linkedin.com/in/edmund-chan-58bb78224/' className='home_social-icon' id={darkMode} >
-            <AiFillLinkedin />
+            <AiFillLinkedin size={50}/>
             </a>  
         <a href='https://github.com/edmundchan70' className='home_social-icon' id={darkMode} >
-            <AiFillGithub />
+            <AiFillGithub size={50} />
             </a>    
     </div>
   )

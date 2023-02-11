@@ -3,7 +3,9 @@ import "./Skills.css"
 import FullStack from './FullStack'
 import { ThemeContext } from '../../App'
 import { useContext } from 'react'
+ 
 import Se from './Se'
+import TopSkills from './TopSkills'
 function Skills() {
   const {handle , darkMode} = useContext(ThemeContext);
   return (
@@ -14,8 +16,9 @@ function Skills() {
                     My skills 
         </span>
         <div className="skills_container container grid">
-            <FullStack />
-            <Se />
+    
+           <TopSkills /> 
+ 
         </div>
 
     </section>

@@ -1,5 +1,5 @@
 .contactMe_container{
-    display: grid;
+  
     grid-template-columns: 35% 80%;
     
 }
@@ -11,7 +11,7 @@
         border: 1px solid rgba(0,0,0,0.3);
         border-radius: 1.25rem;
         background-color: var(--container-color);
- 
+     
  }
 
  .contactMe_info{
@@ -34,6 +34,8 @@
     row-gap: 0.25rem;
 }
 .writeMe_input{
+
+
     outline: none;
     border-radius: 0.75rem;
     width: 100%;
@@ -53,10 +55,7 @@
 }
  
 @media only  screen and (max-width: 800px){
-   .contact{
-       width: 900px;
- 
-   }
+  
    .contactMe_container{
       display: flex;
       justify-content: center;
@@ -64,10 +63,20 @@
       align-items: center;
    }
    .contactMe_box{
-      padding: 1rem 0.5rem;
+      padding:  3rem
    }
    .container{
       margin-left: 0;
       margin-right: 0;
+   }
+   .sendMsg{
+   font-size: var(--small-font-size);
+   text-align: center; 
+   display: inline-block;
+   background-color: var(--title-color);
+   color: var(--container-color);
+   padding: 1.25rem 2rem;
+   border-radius: 1rem;
+   font-weight: var(--font-medium); 
    }
 }

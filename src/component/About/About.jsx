@@ -16,10 +16,18 @@ function About() {
                 <img src={TMU}  className="about_img" />
                 <div className='about_data'>
                         <Info />
-                        <p className="about_description"> 
-                        Currently a Year 3 ,CS Major Student At TMU.  Right now I 
-                        self-teaching my-self to be a full-stack developer. Always willing and looking foward to learn new things! 
-                        </p>
+                       
+                        <p className="about_description1"> Currently a Year 3 ,CS Major Student At TMU. 
+                        
+                         <p className="about_description2"> Right now I 
+                          self-teaching my-self to be a full-stack developer.
+                          </p>
+                          
+                          </p>
+                          
+                         
+                     
+                        
                         <a download="" href={CV} className="button ContactMe">Download CV
                         <HiOutlineDocumentText />
                         </a>
