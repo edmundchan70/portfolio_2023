@@ -9,7 +9,6 @@ function WriteMe() {
                 Write to Me 
             </h1>
         <form className="writeMe_box container" action='https://formsubmit.co/edmundchan70@gmail.com' method='POST'>
-
             <label htmlFor="" className="contactMe__form-div" >Name</label>
             <input type="text" className="writeMe_input" placeholder='Type your Name ...' />
 
@@ -18,9 +17,8 @@ function WriteMe() {
 
             <label htmlFor="" className="contactMe__form-div">Message</label>
             <textarea name="message" className='writeMe_input' id="" cols="30" rows="10" placeholder='Enter your message here '></textarea>
-            <a type="submit" className='sendMsg' >
-                 Submit!
-                </a>
+            <a type="submit" className='sendMsg'>
+                <button> Submit! </button> </a>
         </form>
      </div>
   )
