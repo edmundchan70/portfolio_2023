@@ -53,7 +53,16 @@
 
   
 }
- 
+.sendMsg{
+   font-size: var(--small-font-size);
+   text-align: center; 
+   display: inline-block;
+   background-color: var(--title-color);
+   color: var(--container-color);
+   padding: 1.25rem 2rem;
+   border-radius: 1rem;
+   font-weight: var(--font-medium); 
+   }
 @media only  screen and (max-width: 800px){
   
    .contactMe_container{
