@@ -14,21 +14,7 @@ function Home() {
                     <Data />
   
             </div> 
-            <a className="home_below" href='#about'>
-              <span className='MoreBelow'>M</span>
-              <span className='MoreBelow'>O</span>
-              <span className='MoreBelow'>R</span>
-              <span className='MoreBelow'>E</span>
-              <span className='MoreBelow'> </span>
-              <span className='MoreBelow'>B</span>
-              <span className='MoreBelow'>E</span>
-              <span className='MoreBelow'>L</span>
-              <span className='MoreBelow'>O</span>
-              <span className='MoreBelow'>W</span>
-              <span className='MoreBelow'>↓</span>
-              <span className='MoreBelow'>↓</span>
-              <span className='MoreBelow'>↓</span>
-            </a>
+           
       
              
           

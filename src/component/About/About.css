@@ -21,6 +21,9 @@
     padding:1rem 1.25rem;
 }
  
+.about{
+    margin-top: 20vh;
+}
 .about_icon{
     font-size:1.5rem;
     color:var(--title-color);
