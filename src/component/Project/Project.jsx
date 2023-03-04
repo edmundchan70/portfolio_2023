@@ -12,6 +12,7 @@ function Project() {
         <h1 className="section__title">Projects</h1>
         <span className="section__subtitle">
                     Project I'm working on ....
+                    Tap to see more !
         </span>
         <div className='Project_container container grid'  >
           <div className='ProjectCard_container' >
