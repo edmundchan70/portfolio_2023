@@ -22,7 +22,7 @@ function Project() {
                  Skill={EZ_AMAZON_CLONE}
                  
                  />
-                <ProjectCard  Title={"FACEBOOK_CLONE"} Link={"https://portfolio-2023-xi-flax.vercel.app/"} LinkRep={"https://github.com/edmundchan70/fb_clone"} Skill={FACEBOOK_CLONE}/>
+                <ProjectCard  Title={"FACEBOOK_CLONE"} Link={"https://fb-clone-black.vercel.app/"} LinkRep={"https://github.com/edmundchan70/fb_clone"} Skill={FACEBOOK_CLONE}/>
           </div>
          
         </div>

@@ -4,13 +4,7 @@ import { useState } from 'react'
 
 function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
   const [isHovered, setIsHovered] = useState(false);
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
+ 
   const {FRONTEND,BACKEND,Desc,Challenge} = Skill
   console.log(Desc)
   return (
@@ -24,7 +18,7 @@ function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
                         <h>FrontEnd:</h>{ FRONTEND.map(
                                   (item,i)=> <span className='Skill_name' id={i}>{item}</span> 
                                 )}
-                                
+
                               </div>
                               <div className='SkillStack'>
                               <h>BackEnd: </h> { BACKEND.map(
