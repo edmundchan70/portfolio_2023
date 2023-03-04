@@ -40,22 +40,23 @@
    flex-direction: column;
 }
 @media only  screen and (max-width: 800px){
-    
     .Skills_showcase{
         display: grid;
         grid-template-columns: 1fr 1fr;
 
     }
     .Skill_avatar{
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
  
     }
     .Skill{
-        padding: 1rem;
+        padding: 0.5rem;
         display: flex;
         align-items: center;
         flex-direction: column;
+        border: none;
+        box-shadow: none;
     }
     .Skill__title{
         font-size: var(--h1-font-size);

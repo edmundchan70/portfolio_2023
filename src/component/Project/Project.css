@@ -4,11 +4,49 @@
     border: solid 1px gray;
     border-radius: 1.25rem;
     cursor: pointer;
-   
+    height: 300px;
+    width: 500px;
+    box-shadow: 1rem 1rem  #494747, -1em -1rem  #000;
+    transform: translateX(0px);   
+    transition: transform 1s ease 0s backface-visibility 0s;
 }
- 
+.Project_Card:hover{
+ transform: translateX(-100px);   
+ transition: transform 1s ease 0s;
+ transition-delay: 0.1s;
+}
+.Description{
+    display: none;
+}
+.Project_Card:hover + .Description{
+    animation: fadeIn 2s;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  
+}
+.Display{
+    display: flex;
+    
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% { opacity:1;}
+}
+.Summary{
+    padding: 0.5rem;
+    font-size: var(--title-font-size);
+}
+.Desc{
+    list-style: square;
+    margin-left: 50px;
+    font-size: var(--smaller-font-size);
+}
+.Project_subtitle{
+    font-size: var(--title-font-size);
+    color: #000;
+}
 .Project_container{
-    grid-template-columns: 35% 50%;
     column-gap: 3rem;
     justify-content: center;
   
@@ -19,20 +57,44 @@
 .Project_Summary{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-  
+    text-align: left;
 }
 .ProjectCard_container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content:center;
+    gap:150px;
 }
-.Project_WorkLog{
-    border: 1px solid ;
+.Project_demo{
+   padding: 0.5rem;
+   font-size: var(--smaller-font-size);
+   border-radius: 1rem;
+}
+.SkillStack{
+        display: flex;
+        gap:10px;
+        color:var(--text-color);
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+}
+.SkillStack >span{
+    border: 1px solid var(--text-color);
+    padding: 0.5rem;
     border-radius: 2rem;
-    padding: 2rem;
+    font-size: var(--smaller-font-size);
 }
  
+.None{
+    display: none;
+}
+.Project_description{
+    font-size: var(--subtitle-font-size);
+}
+.Project{
+    padding: 1rem; 
+}
 .Project_text{
     font-size: larger;
     text-align: center;
@@ -58,12 +120,13 @@ th{
     overflow:auto;  
   
 }
- 
+  
 .Project_Skill{
     display: flex;
     
 }
  
+
 @media only  screen and (max-width: 800px){
      
     .Project_WorkLog{
@@ -73,14 +136,32 @@ th{
         display: flex;
     }
     
-
-    .ProjectCard_container{
-        display: flex;
-        gap: 30px;
-       
-
+    .Project_Card{
+        height: 250px;
+        width: 300px;
+        padding: 1rem;
     }
-        
-
-  
+    .Project_Card:hover {
+        display: none;
+    }
+    
+     
+    .Project_subtitle{
+        text-align: center;
+        font-size: var(--medium-font-size);
+    }
+.SkillStack{
+    font-size: var(--smaller-font-size);
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper{
+    justify-content:left ;
+}
+.SkillStack > span{
+    padding: 0.25rem;
+    font-size: 10px;
+}
+ 
 }

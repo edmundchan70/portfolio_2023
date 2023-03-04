@@ -11,7 +11,7 @@ import Python from '../../assets/python.png'
 function TopSkills() {
   return (
     <section className='TopSkills container'>
-        <p className='Title'> These are my TOP skills</p>
+        <p className='section__subtitle'> Some of my skills...</p>
          
             <div className='Skills_showcase'>
             <div className='Skill'>

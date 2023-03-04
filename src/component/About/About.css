@@ -58,6 +58,7 @@
             display: flex;
             flex-direction: column;
         }
+       
         .about_img{
             display: none;
         }
@@ -67,8 +68,13 @@
             align-items: center;
         }
         .about_info{
-            display: grid;
+            display: flex;
             justify-content: center;
+           
+        }
+        .about_box{
+            border: none;
+            background-color: var(--body-color);
         }
         .about_container{
             grid-template-columns: 100%;
