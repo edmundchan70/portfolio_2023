@@ -8,7 +8,7 @@
     width: 500px;
     box-shadow: 1rem 1rem  #494747, -1em -1rem  #000;
  
-    transition: transform 3s ease-in-out 0.1s;
+    transition: transform 1s ease-in-out 0.1s;
     transform: translateX(0px);  
     will-change: transform;
     
@@ -16,16 +16,13 @@
  
 .Project_Card:hover{
  transform: translateX(-100px);   
- transition: transform 3s ease ;
+ transition: transform 1s ease 0.1s;
 
 }
 .Description{
     display: none;
 }
-.Description:hover{
-  
-    pointer-events: none;
-}
+ 
 .Project_Card:hover + .Description{
     animation: fadeIn 1s;
     text-align: left;

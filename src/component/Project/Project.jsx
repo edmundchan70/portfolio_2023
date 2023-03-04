@@ -12,7 +12,7 @@ function Project() {
         <h1 className="section__title">Projects</h1>
         <span className="section__subtitle">
                     Project I'm working on ....
-                    Tap to see more !
+                    Tap/Hover on cards!
         </span>
         <div className='Project_container container grid'  >
           <div className='ProjectCard_container' >
