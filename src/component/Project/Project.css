@@ -13,7 +13,7 @@
 .Project_Card:hover{
  transform: translateX(-100px);   
  transition: transform 1s ease 0s;
- transition-delay: 0.1s;
+ 
 }
 .Description{
     display: none;
