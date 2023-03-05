@@ -132,8 +132,11 @@ th{
 }
  
 
-@media only  screen and (max-width: 800px){
-     
+@media (max-width: 800px){
+    .Project_Card:hover{
+        transform: none;   
+        transition: none;
+       }
     .Project_WorkLog{
         display: none;
     }
@@ -146,11 +149,7 @@ th{
         width: 300px;
         padding: 1rem;
     }
-    .Project_Card:hover {
-        display: none;
-    }
-    
-     
+  
     .Project_subtitle{
         text-align: center;
         font-size: var(--medium-font-size);
