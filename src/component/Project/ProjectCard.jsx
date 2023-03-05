@@ -3,15 +3,14 @@ import { useState } from 'react'
  
 
 function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
-  const [isHovered, setIsHovered] = useState(false);
- 
+  const [tap,setTap] = useState(false);
   const {FRONTEND,BACKEND,Desc,Challenge} = Skill
-  console.log(Desc)
+  console.log(tap)
   return (
     <div className='Display'>
-        <div className='Project_Card'  >
-                  <div className='Project_Summary' >
-                    
+        <div className={tap?'Project_Card Tap':'Project_Card'} onClick={()=>{
+           setTap(!tap)}} >
+                  <div className='Project_Summary' >         
                         <h3 className='Project_subtitle'>{Title}</h3>
                         <div className='Project_description'>
                         <div className='SkillStack'>
@@ -38,8 +37,8 @@ function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
               </div>
            
             </div>
-        <div className="Description">
-           <div className="Summary">
+        <div className={tap?"TapDescription" : "Description"} onClick={()=>setTap(!tap)}>
+           <div className="Summary"  >
             <p className='Project_subtitle'> Summary</p>
                 <p className='Desc'>{Desc}</p>    
                 </div>

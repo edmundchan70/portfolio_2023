@@ -7,28 +7,28 @@
     height: 300px;
     width: 500px;
     box-shadow: 1rem 1rem  #494747, -1em -1rem  #000;
- 
-    transition: transform 1s ease-in-out 0.1s;
-    transform: translateX(0px);  
-    will-change: transform;
-    
+    animation: fadeIn 1s;
 }
  
 .Project_Card:hover{
- transform: translateX(-100px);   
+ transform: scale(1.1);   
  transition: transform 1s ease 0.1s;
-
 }
+ 
 .Description{
     display: none;
 }
- 
-.Project_Card:hover + .Description{
+.Tap{
+    display: none;
+}
+.TapDescription{
     animation: fadeIn 1s;
     text-align: left;
     display: flex;
     flex-direction: column;
-  
+ 
+    cursor: pointer;
+    
 }
 .Display{
     display: flex;
