@@ -18,7 +18,7 @@ function WriteMe() {
             <label htmlFor="" className="contactMe__form-div">Message</label>
             <textarea name="message" className='writeMe_input' id="" cols="30" rows="10" placeholder='Enter your message here '></textarea>
             <a type="submit" className='sendMsg'>
-                <button> Submit! </button> </a>
+                <button className='SendToMe'> Submit! </button> </a>
         </form>
      </div>
   )

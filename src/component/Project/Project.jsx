@@ -21,7 +21,8 @@ function Project() {
                  Title={"EZ_AMAZON_CLONE"}
                  Link={"https://ez-amazon-repo-zuwg.vercel.app"} 
                  LinkRepo={"https://github.com/edmundchan70/EZ_Amazon_repo"}
-                 Skill={EZ_AMAZON_CLONE} 
+                 Skill={EZ_AMAZON_CLONE}
+                 
                  />
                 <ProjectCard  Title={"FACEBOOK_CLONE"} Link={"https://fb-clone-black.vercel.app/"} LinkRep={"https://github.com/edmundchan70/fb_clone"} Skill={FACEBOOK_CLONE}/>
           </div>
