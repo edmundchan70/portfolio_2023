@@ -15,11 +15,11 @@ export const EZ_AMAZON_CLONE ={
     
 }
 export const FACEBOOK_CLONE ={
-    FRONTEND :["Next.Js" ,"Next-Auth","Prsima"],
-    BACKEND  : ["Nest.Js" ,"Express.Js","TypeScript","PostgreSQL"],
+    FRONTEND :["Next.Js" ,"Next-Auth"],
+    BACKEND  : ["Nest.Js" ,"Express.Js","TypeScript","PostgreSQL","Prsima"],
     Desc: "A full-stack project emulated classic Facebook features. Allowed visitors to send posts with texts & pictures, or leave comments under posts. Functionality like: Search User, send/accept friend requests are combined into a Friend Page.",
     Challenge:[
-        "Migrated Node.js and React.js skills to other frameworks such as Nest.js and Next.js",
+        "Migrated from Node.js and React.js to other frameworks such as Nest.js and Next.js",
         "Implemented server-side rendering (SSR) to enhance user experience",
         "Client-side rendering (CSR) provided real-time responses to user's actions (posts/comments)",
         "Successfully implemented API services in TypeScript to improve backend services' consistency"

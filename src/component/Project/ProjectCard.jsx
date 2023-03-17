@@ -56,7 +56,7 @@ function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
                 <p className='Desc'>{Desc}</p>    
                 </div>
                 <div className="Challenge">
-                <p className='Project_subtitle'> Challenge</p>
+                <p className='Project_subtitle'>HighLight</p>
                 <ul>
                   {Challenge.map(
                     (item)=>(<li className='Desc'>{item}</li>)
