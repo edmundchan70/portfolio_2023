@@ -1,7 +1,8 @@
 import React from 'react'
 import { ThemeContext } from '../../App'
 import { useContext } from 'react'
-
+import { HiOutlineDocumentText } from 'react-icons/hi'
+import Resume from "../../assets/Final_Resume.pdf"
 function Data() {
   const {handle , darkMode} = useContext(ThemeContext)
   return (
@@ -16,10 +17,16 @@ function Data() {
             <p className="home_description">
             Currently a Year 3 ,Computer Science Major Student At TMU. 
             </p>
-            <a href="#contact" className='button contactMeBtn'>
-                Contact ME! 
-            </a>
-           
+            <div className="home_btn">
+                <a href="#contact" className='button contactMeBtn'>
+                    Contact ME! 
+                </a>
+                <a download="" href={Resume} className="button ContactMe">Download CV
+                            <HiOutlineDocumentText/>
+                            </a>
+            </div>
+      
+                   
     </div>
   )
 }

@@ -4,18 +4,50 @@
     column-gap:2rem;
     align-items: center ;
 }
+ .home_title{
+    margin-top: 100px;
+ }
+ .react-pdf__Page__canvas::before{
+    content: "HI";
+ }
+.react-pdf__Page__canvas{
+    margin: 0 auto;
+    width: 300px !important;
+    height: 400px !important;
+    transform: scale(1);
+    transition: transform 1s ease-in;
+    cursor: pointer;
+}
+.react-pdf__Page__canvas:hover{
+    transform: scale(1.6);
+    transition: transform 1s ease-in;
+}
+.home_img::before{
+content: "⬇     ⬇";
+margin-left: 290px;
+font-size: large;
  
+ 
+ 
+}
+.textLayer{
+    display: none;
+}
 .home_img{
-   
-    background: url("../../assets/myPic.jpeg");
     background-repeat: no-repeat;
     background-position: centre;
     background-size: cover;
     box-shadow:inset 0 0 0 9px rgb(255,255,255/30%);
     order: 1;
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 300px;
     animation:profile_animate 8s ease-in-out infinite 1s ; 
+}
+.home_btn{
+    display: flex;
+    gap: 2rem;
 }
 @keyframes profile_animate {
     0%{
@@ -100,6 +132,9 @@ margin-left: 0.4rem;
  @media only screen  and (max-width:800px){
     .home_img{
      display: none;
+    }
+    .home{
+        margin-top: 0;
     }
 
     .home_content {
