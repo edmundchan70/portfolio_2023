@@ -24,11 +24,12 @@ function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
                                   (item,i)=> <span className='Skill_name' id={i}>{item}</span> 
                                 )}
                               </div>  
-                              
+                      
                      <div className='wrapper Project'>
-                        <a className='Project_demo' href={Link}>Demo</a>
-                        <a className='Project_demo' href={LinkRepo}>Rep</a>
-                       
+                      
+                   {  //  <a className='Project_demo' href={Link}>Demo</a>
+                     //   <a className='Project_demo' href={LinkRepo}>Rep</a>
+                       }
                          <div className='ClickMe'>Click!</div>
                       
                       
