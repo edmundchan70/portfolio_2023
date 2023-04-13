@@ -14,10 +14,13 @@ function Home() {
             <div className="home_content grid">
                     <Social />
                     <div className="home_img">
-                   
+                    <a download={""} href={Resume} >
+
+                
                       <Document file={Resume} className="home_resume" >
                         <Page pageNumber={1} className="home_resume" />
-                      </Document>    
+                      </Document>   
+                      </a> 
                     </div>
                     <Data />
   

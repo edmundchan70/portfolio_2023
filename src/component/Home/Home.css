@@ -23,8 +23,8 @@
     transition: transform 1s ease-in;
 }
 .home_img::before{
-content: "⬇     ⬇";
-margin-left: 290px;
+content: "⬇Click/Hover⬇";
+margin-left: 250px;
 font-size: large;
  
  

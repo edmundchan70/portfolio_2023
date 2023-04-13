@@ -23,7 +23,7 @@ function Data() {
                 </a>
                 <a download="" href={Resume} className="button ContactMe">Download CV
                             <HiOutlineDocumentText/>
-                            </a>
+                </a>
             </div>
       
                    
