@@ -14,13 +14,13 @@ function About() {
             <span className="section__subtitle">My Introduction</span>
             <div className="about_container container grid">
                 <img src={TMU}  className="about_img" />
-                <div className='about_data'>
+                <div className='about_data'   >
                         <Info />
                        
-                        <p className="about_description1"> Currently a Year 3 ,CS Major Student At TMU. 
+                        <p className="about_description1" style={{paddingBottom:"1rem"}}> Currently a Year 3 ,CS Major Student At TMU. 
                         
-                         <p className="about_description2"> Right now I 
-                          self-teaching my-self to be a full-stack developer.
+                         <p className="about_description2"  > Right now I 
+                          learning to be a full-stack developer.
                           </p>
                           
                           </p>
