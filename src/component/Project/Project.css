@@ -57,7 +57,7 @@
 .small_icon{
     height: 200px;
     width: 350px;
-    animation: breathing 2s ease-in-out infinite;
+ 
 }
 .Desc{
     list-style: square;
