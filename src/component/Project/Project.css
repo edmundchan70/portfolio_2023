@@ -1,9 +1,16 @@
-.Project_Card ,.Project_deatil{
-    padding: 2rem;
+.Display{
+    display: flex;
+    gap:100px;
+   
+    padding: 3rem;
+    
+}
+.Project_Card {
+    padding: 1rem;
     background-color: white ;
     border: solid 1px gray;
     border-radius: 1.25rem;
-    cursor: pointer;
+ 
     height: min-content;
     width: 500px;
     box-shadow: 1rem 1rem  #494747, -1em -1rem  #000;
@@ -34,20 +41,22 @@
     text-align: left;
     display: flex;
     flex-direction: column;
- 
     cursor: pointer;
-    
+    background-color: rgba(0, 0, 0, 0);
 }
-.Display{
-    display: flex;
-    
+.Project{
+    background-color: rgba(0, 0, 0, 0.8);
 }
+.Projects_Title{
+    text-align: center;
+    color:  rgba(256,256,256,0.9)
+}
+ 
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% { opacity:1;}
 }
 .Summary{
-    padding: 0.5rem;
     font-size: var(--title-font-size);
 }
 .Project_Avatar{
@@ -62,12 +71,12 @@
 .Desc{
     list-style: square;
     margin-left: 50px;
- 
+    color: rgba(256,256,256,0.7);
     font-size: var(--smaller-font-size);
 }
-.Project_subtitle{
+.Summary_Text{
     font-size: var(--title-font-size);
-    color: #000;
+    color: rgba(256,256,256,1);
 }
 .Project_container{
     column-gap: 3rem;

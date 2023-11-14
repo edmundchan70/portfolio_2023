@@ -10,12 +10,9 @@ function Project() {
     const {handle , darkMode} = useContext(ThemeContext);
   return (
     <section  className="Project section" id="Project">
-        <h1 className="section__title">Projects</h1>
-        <span className="section__subtitle">
-                    Project I'm working on ....
-                    Tap/Hover on cards!
-        </span>
-        <div className='Project_container container grid'  >
+        <h1 className="Projects_Title">Projects</h1>
+      
+        <div className='Project_container '  >
           <div className='ProjectCard_container' >
                 <ProjectCard 
                  Title={"EZ_AMAZON_CLONE"}

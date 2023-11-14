@@ -3,13 +3,12 @@ import { useState } from 'react'
  
 
 function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
-  const [tap,setTap] = useState(false);
+  
   const {FRONTEND,BACKEND,Desc,Challenge,Pic} = Skill
-  console.log(tap)
+ 
   return (
     <div className='Display'>
-        <div className={tap?'Project_Card Tap':'Project_Card'} onClick={()=>{
-           setTap(!tap)}} >
+        <div className= 'Project_Card'   >
                   <div className='Project_Summary' >         
                         <h3 className='Project_subtitle'>{Title}</h3>
                         <div className='Project_description'>
@@ -17,7 +16,6 @@ function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
                         <h className="Front_End">FrontEnd:</h>{ FRONTEND.map(
                                   (item,i)=> <span className='Skill_name' id={i}>{item}</span> 
                                 )}
-
                               </div>
                               <div className='SkillStack'>
                               <h className="Back_End">BackEnd: </h> { BACKEND.map(
@@ -30,7 +28,7 @@ function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
                    {  //  <a className='Project_demo' href={Link}>Demo</a>
                      //   <a className='Project_demo' href={LinkRepo}>Rep</a>
                        }
-                         <div className='ClickMe'>Click!</div>
+                       
                       
                       
                       </div>
@@ -41,23 +39,19 @@ function ProjectCard({ Title  ,LinkRepo, Link,Skill}) {
                     
                         
                   </div>
-              <div className='Desription'>
-                      
-              </div>
+            
            
             </div>
-        <div className={tap?"TapDescription" : "Description"} onClick={()=>setTap(!tap)}>
-        <div className='Project_Avatar'>
-                  <img src={Pic}  className="small_icon"/>
-             </div>  
+        <div className="TapDescription"  >
+   
              
            <div className="Summary"  >
           
-            <p className='Project_subtitle'> Summary</p>
+            <p className='Summary_Text'>Summary</p>
                 <p className='Desc'>{Desc}</p>    
                 </div>
                 <div className="Challenge">
-                <p className='Project_subtitle'>HighLight</p>
+                <p className='Summary_Text'>HighLight</p>
                 <ul>
                   {Challenge.map(
                     (item)=>(<li className='Desc'>{item}</li>)

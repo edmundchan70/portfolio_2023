@@ -1,6 +1,7 @@
 .header{
     width: 100%;
     position: fixed ; 
+    height: 80px;
     top:0;
     left:0;
     z-index: var(--z-fixed);
